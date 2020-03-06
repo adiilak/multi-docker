@@ -20,7 +20,7 @@ after_success:
   - docker push adilak0096/multi-nginx
   - docker push adilak0096/multi-server
   - docker push adilak0096/multi-worker
-
+# deploy
 deploy:
   provider: elasticbeanstalk
   region: ap-southeast-1
